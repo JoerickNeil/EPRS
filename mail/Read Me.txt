@@ -1,0 +1,12 @@
+1)open php.ini(xampp)
+find mail function
+Edit or comment out all in mail function
+
+2)inside the mailfunction insert this command
+sendmail_path ="C:\xampp\sendmail\sendmail.exe -t -i"
+
+3)get or unpack send mail from zip/rar
+after this put the send email folder in xampp folder and make sure libeay32.dll, sendmail.ini, ssleay32.dll and sendmail.exe is in the folder
+
+
+after this hope that it works though it works for me. It wont be 100% sure it will work on others as there are many factor in the bug

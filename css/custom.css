@@ -1,0 +1,18 @@
+.huge{
+  font-size: 40px;
+}
+
+.ratio{
+    position:relative;
+    width: 100%;
+    height: 200;
+    padding-bottom: 90% ; /* % of width, defines aspect ratio*/
+    
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;  
+}
+
+.product{
+	text-decoration: none;
+}
